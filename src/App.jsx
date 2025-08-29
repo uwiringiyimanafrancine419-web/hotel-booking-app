@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SignUp from './pages/Autho/signUp';
-import  Login from './pages/Autho/login';
-import Home from './pages/Customers/Home'; // Example placeholder page
+import  SignUp from './Pages/Auth/signUp';
+import  Login from './Pages/Auth/login';
+import  Home from './Pages/Customer/Home'; 
 
 function App() {
   return (
